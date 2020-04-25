@@ -1,7 +1,7 @@
 import cv2
 import numpy as np 
 
-img = cv2.imread('Data/samples/data/lena.jpg')
+img = cv2.imread('data/lena.jpg')
 
 """
 Pyramid or pyramid representation is a type of multi-scale signal representation in which a 

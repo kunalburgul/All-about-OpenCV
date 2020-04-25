@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 # Reading the image
-img = cv2.imread('Data/samples/data/lena.jpg',1)
+img = cv2.imread('data/lena.jpg',1)
 
 # Creating the image using Numpy Zeros Method (This gives the black backgroung image)
 img = np.zeros([512, 512, 3], np.uint8)

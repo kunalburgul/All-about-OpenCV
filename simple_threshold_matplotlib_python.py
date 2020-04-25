@@ -2,7 +2,7 @@ import cv2
 import numpy as np 
 import matplotlib.pyplot as plt 
 
-img = cv2.imread('Data/samples/data/gradient.png', 0)
+img = cv2.imread('data/gradient.png', 0)
 
 
 _, th1 = cv2.threshold(img, 50, 255, cv2.THRESH_BINARY)

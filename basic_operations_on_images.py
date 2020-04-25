@@ -1,7 +1,7 @@
 import numpy as np 
 import cv2
 
-img = cv2.imread('Data/samples/data/messi5.jpg',1)
+img = cv2.imread('data/messi5.jpg',1)
 
 print(img.shape) # Return a tuple of number of rows, columns and channels
 print(img.size) # Returns Total number of pixcels is accessed

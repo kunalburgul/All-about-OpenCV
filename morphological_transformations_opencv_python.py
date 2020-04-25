@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 """
 
 
-img = cv2.imread('Data/samples/data/smarties.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('data/smarties.png', cv2.IMREAD_GRAYSCALE)
 
 _, mask = cv2.threshold(img, 220, 255, cv2.THRESH_BINARY_INV)
 

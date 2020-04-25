@@ -1,7 +1,7 @@
 import cv2
 import numpy as np 
  
-img = cv2.imread('Data/samples/data/shapes.jpg')
+img = cv2.imread('data/shapes.jpg')
 imGrey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 _, thresh = cv2.threshold(imGrey, 240, 255, cv2.THRESH_BINARY)
 contours, _ = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)

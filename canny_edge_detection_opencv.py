@@ -11,7 +11,7 @@ cv2.createTrackbar("CMAX", "Tracking",250, 500,nothing)
 
 while True:
    
-    img = cv2.imread('Data/samples/data/messi5.jpg',0)
+    img = cv2.imread('data/messi5.jpg',0)
 
     c_min = cv2.getTrackbarPos("CMIN", "Tracking")
     c_max = cv2.getTrackbarPos("CMAX", "Tracking")

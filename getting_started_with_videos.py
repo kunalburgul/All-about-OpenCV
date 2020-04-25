@@ -5,7 +5,7 @@ cap = cv2.VideoCapture(0) # Capturing the video
 
 fourcc = cv2.VideoWriter_fourcc(*'XVID') # This is the fourcc code to be passed 
 # Saving the Video (Here argument is FourCC code, third argumet is FPS, fouth argument is SIZE)
-out = cv2.VideoWriter('Output/video_output.avi', fourcc, 20.0, (640,480) ) 
+out = cv2.VideoWriter('output/video_output.avi', fourcc, 20.0, (640,480) ) 
 
 
 

@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Homogeneous filter is the most simple filterm each output pixel is the mean of its kernel 
 # neighbour
 
-img = cv2.imread('Data/samples/data/lena.jpg')
+img = cv2.imread('data/lena.jpg')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # Filtering using 2 Dimensional Convolutional

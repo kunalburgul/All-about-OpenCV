@@ -1,9 +1,9 @@
 import numpy as np 
 import cv2
 
-img = cv2.imread('Data/samples/data/messi5.jpg')
+img = cv2.imread('data/messi5.jpg')
 grey_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-template = cv2.imread('Data/samples/data/messi_face.jpg', 0)
+template = cv2.imread('data/messi_face.jpg', 0)
 w, h = template.shape[::-1]
 
 res = cv2.matchTemplate(grey_img, template, cv2.TM_CCOEFF_NORMED) # TM_SQDIFF/TM_CCOEFF/TM_CCOEFF_NORMED/TM_CCORR/TM_CCORR_NORMED

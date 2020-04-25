@@ -2,7 +2,7 @@ import cv2
 import numpy as np 
 import matplotlib.pyplot as plt 
 
-img = cv2.imread("Data/samples/data/messi5.jpg", cv2.IMREAD_GRAYSCALE) # sudoku.png
+img = cv2.imread("data/messi5.jpg", cv2.IMREAD_GRAYSCALE) # sudoku.png
 lap = cv2.Laplacian(img, cv2.CV_64F, ksize = 1)
 lap = np.uint8(np.absolute(lap))
 sobelX = cv2.Sobel(img, cv2.CV_64F, 1, 0)

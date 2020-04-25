@@ -1,7 +1,7 @@
 import cv2 
 import numpy as np  
 
-img = cv2.imread('Data/samples/data/gradient.png', 0)
+img = cv2.imread('data/gradient.png', 0)
 
 # If the value of the (pixcel) < (threshold value) than that value is assigned to 0
 # If the value of the (pixcel) > (threshold value) than that value is assigned to 255
